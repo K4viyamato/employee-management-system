@@ -1,0 +1,239 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2023, 6:34:38 PM
+    Author     : kavindu
+*/
+
+.close {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover {
+    -fx-background-color: #ff0d0d;
+    
+}
+
+.closeicon:hover{
+    
+    -fx-fill: #fff;
+    
+    
+}
+
+.minim{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.minim:hover {
+    -fx-background-color: #a6a6a6;
+    
+    
+}
+
+.minimicon:hover{  
+    -fx-fill: #fff;
+   
+}
+
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+/*    -fx-border-width: .4px .4px .2px .4px;*/
+}
+
+/*.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color:#000;
+    -fx-border-width: .2px .4px .8px .4px;
+}*/
+
+
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #094279 , #00d4ff);
+    -fx-border-radius: 0 10 0 0;
+    -fx-background-radius: 0 10 0 0;
+}
+
+.nav-btn{
+    -fx-background-color: linear-gradient(to bottom, #ebebeb , #f6f6f6);
+    -fx-background-radius: 5px;
+    -fx-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "arial";
+    -fx-cursor: hand;
+    -fx-border-radius: 4px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.nav-btn:focused{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,1),6,0,0,0);
+    -fx-border-width: .4px;
+    -fx-border-color: #000;
+    
+}
+
+.nav-btn:hover{
+    -fx-background-color: linear-gradient(to top, #ebebeb , #f6f6f6);
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),6,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+
+.card{
+    -fx-background-color: linear-gradient(to bottom right, #094279 , #009abb);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #a7f0ff , #00d4ff);
+    -fx-border-radius: 8px;
+    -fx-padding: 0px;
+}
+
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #a7f0ff , #00d4ff);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:40px;
+    
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #000;
+    -fx-font-family : "Arial";
+}
+
+.textfield{
+    -fx-border-color: #efefef;
+    -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
+    -fx-border-width: 0.5px;
+    -fx-font-family: "Arial";
+    -fx-border-radius: 4px;
+}
+
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #a7f0ff , #00d4ff);
+    -fx-border-width: 0.8px;
+    -fx-background-color: #f0f0f0;
+}
+
+.search{
+    -fx-border-width: 1px;
+    -fx-font-family: "Arial";
+    -fx-border-radius: 4px;
+    -fx-font-size:13px;
+}
+
+.search:focused{
+    -fx-border-width: 1.5px;
+}
+
+.import-btn{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff3244;
+}
+.import-btn:hover{
+    -fx-background-color: #ddd;
+}
+
+
+.add-btn{
+    -fx-background-color: #32CD32;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4),2,0,0,0);
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),6,0,0,0);*/
+    
+}
+
+.add-btn:hover{
+    -fx-background-color: #228B22;
+    
+}
+
+
+.update-btn{
+    -fx-background-color: #1E90FF;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4),2,0,0,0);
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),6,0,0,0);*/
+    
+}
+
+.update-btn:hover{
+    -fx-background-color: #4169E1;
+    
+}
+
+
+.clear-btn{
+    -fx-background-color: #F0F0F0;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #000;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4),2,0,0,0);
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),6,0,0,0);*/
+    
+}
+
+.clear-btn:hover{
+    -fx-background-color: #DCDCDC;
+    
+}
+
+
+.delete-btn{
+    -fx-background-color: #FF6347;
+    -fx-background-radius: 8px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4),2,0,0,0);
+/*    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5),6,0,0,0);*/
+    
+}
+
+.delete-btn:hover{
+    -fx-background-color: #CD5C5C;
+    
+}
+
+.label-info{
+    -fx-background-color:transparent;
+    -fx-border-color:#efefef;
+    -fx-border-radius:4px;
+    -fx-padding:0px 0px 0px 8px;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="techcompany.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="300.0" styleClass="left-form" stylesheets="@loginDesign.css">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USERS" layoutX="86.0" layoutY="206.0" size="10em" />
+                  <Label layoutX="45.0" layoutY="232.0" text="Employee management" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="117.0" layoutY="267.0" text="System" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="300.0" prefHeight="400.0" prefWidth="300.0" styleClass="right-form" stylesheets="@loginDesign.css">
+               <children>
+                  <Label layoutX="82.0" layoutY="94.0" text="Welcome" textAlignment="CENTER">
+                     <font>
+                        <Font name="Calibri Bold" size="35.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="51.0" layoutY="167.0" onAction="#loginAdmin" prefHeight="30.0" prefWidth="200.0" promptText="Username" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <PasswordField fx:id="password" layoutX="50.0" layoutY="214.0" onAction="#loginAdmin" prefHeight="30.0" prefWidth="200.0" promptText="Password" styleClass="textfield" stylesheets="@dashboardDesign.css" />
+                  <Button fx:id="loginBtn" layoutX="90.0" layoutY="265.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="30.0" prefWidth="120.0" styleClass="login-btn" stylesheets="@loginDesign.css" text="Login" />
+                  <Button fx:id="close" layoutX="270.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" prefHeight="10.0" prefWidth="10.0" styleClass="close" stylesheets="@loginDesign.css" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="4.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="CLOSE" size="1.5em" styleClass="closeicon" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
