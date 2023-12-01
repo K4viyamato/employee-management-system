@@ -5,11 +5,11 @@
 
 
 ## Technology Stack
-- **Programming Language:** Java
+- **Programming Language:** [Java : Version 1.8.0_202 ](https://drive.google.com/file/d/1QerZhUeBnsGpoHyO77nfpUHhLI-kqeYe/view?usp=sharing)
 - **GUI Framework:** JavaFX
-- **Database:** MySQL
-- **IDE:** NetBeans 8.0
-- **Other Tools:** Scene Builder 2.0
+- **Database:** [MySQL](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.0.30/xampp-windows-x64-8.0.30-0-VS16-installer.exe)
+- **IDE:** [NetBeans 8.0](https://drive.google.com/file/d/19FqkmSH_GBqrPnXZ4sudnT-x2DlX0tbb/view?usp=sharing)
+- **Other Tools:** [Scene Builder 2.0](https://drive.google.com/file/d/13Uh-Feaiz-PgzXTFW_EU0sxurS4tnNzQ/view?usp=sharing)
 
 
 ## Features
