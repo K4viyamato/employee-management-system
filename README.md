@@ -26,7 +26,7 @@
 * Password: 1234
 
 
-## Tables $ Queries
+## Tables & Queries
 
 ### Admin Table
 
