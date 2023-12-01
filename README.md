@@ -123,6 +123,10 @@
 
 ## Screenshots
 
+## File Structure
+![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/b970db4c-5da6-4dc4-b82e-51553b3768d3)
+
+
 ## Login
 
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/a46c0f8e-525e-40c6-8dc5-b09a3b1020bb)
