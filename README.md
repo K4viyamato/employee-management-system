@@ -3,32 +3,32 @@
 # Employee Management System
 This Employee Management System is a simple Java application built using MySQL as the database to manage employee-related information within departments and designations.
 
-##Pre-requisites##
+##Pre-requisites
 
 Database: MySQL
 Java Version: 1.8.0_202
 
-##Development Environment##
+##Development Environment
 
 Java FX Version: Included in the Java 1.8 distribution
 Scene Builder Version: 2.0
 IDE: NetBeans 8
 
 
-##Project Structure##
+##Project Structure
 
 This project was developed using Java FX in conjunction with Scene Builder 2.0, and NetBeans 8 served as the Integrated Development Environment (IDE). The application is structured to manage employee-related information within departments and designations.
 
 
-##Database Configuration##
+##Database Configuration
 
 Username: root
 Password: 1234
 
 
-##Tables##
+##Tables
 
-###Admin Table###
+###Admin Table
 
 
 CREATE TABLE admin (
@@ -42,7 +42,7 @@ INSERT INTO admin (username, password, role) VALUES
 ('admin', '1234', 'Admin');
 
 
-###Department Table###
+###Department Table
 
 
 CREATE TABLE Department (
@@ -58,7 +58,7 @@ INSERT INTO Department (DepartmentName) VALUES
 ('Operations');
 
 
-###Designation Table###
+###Designation Table
 
 CREATE TABLE Designation (
     DesignationID INT PRIMARY KEY AUTO_INCREMENT,
@@ -73,7 +73,7 @@ INSERT INTO Designation (DesignationName) VALUES
 ('Coordinator');
 
 
-###Employee Table###
+###Employee Table
 
 CREATE TABLE Employee (
     ID INT PRIMARY KEY AUTO_INCREMENT,
@@ -92,20 +92,24 @@ CREATE TABLE Employee (
 
 ##Screenshots
 
-Login
+##Login
 
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/a46c0f8e-525e-40c6-8dc5-b09a3b1020bb)
 
-Home
+##Home
+
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/3ed52d9b-bc80-42b6-b0b9-1b3d5ba7e829)
 
-Manage Employees
+##Manage Employees
+
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/52e8c78f-18cd-4e67-8e41-d0c6f534e98b)
 
-Manage Users
+##Manage Users
+
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/3a55d2af-a382-46f0-9362-a25bfe872577)
 
-Manage Department And Designation
+##Manage Department And Designation
+
 ![image](https://github.com/K4viyamato/employee-management-system/assets/113100464/5106bf6e-ebd8-4ea8-9f56-3e69d912ef3c)
 
 
