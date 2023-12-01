@@ -30,7 +30,7 @@
 ## Database Configuration
 
 - Username: root
-* Password: 1234
+- Password: 1234
 
 
 ## Tables & Queries
