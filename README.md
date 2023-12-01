@@ -155,8 +155,6 @@
 ## **NOTE**
 - This system does not include password hashing. It's a basic Employee Management System that allows for managing employees' information within departments and designations.
 
-* This project was developed for educational purposes to demonstrate JavaFX, MySQL integration, and basic CRUD (Create, Read, Update, Delete) functionalities in an Employee Management System.
-
 
 
 
