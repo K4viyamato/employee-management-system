@@ -32,6 +32,10 @@
 - Username: root
 - Password: 1234
 
+## Create the Database
+
+`CREATE DATABASE employee;`
+
 
 ## Tables & Queries
 
