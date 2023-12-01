@@ -1,81 +1,103 @@
 
 
 # Employee Management System
-This Employee Management System is a simple Java application built using MySQL as the database to manage employee-related information within departments and designations.
+- This Employee Management System is a simple Java application built using MySQL as the database to manage employee-related information within departments and designations.
 
 ## Pre-requisites
 
-Database: MySQL
-Java Version: 1.8.0_202
+- Database: MySQL 
+* Java Version: 1.8.0_202
 
 ## Development Environment
 
-Java FX Version: Included in the Java 1.8 distribution
-Scene Builder Version: 2.0
-IDE: NetBeans 8
+- Java FX Version: Included in the Java 1.8 distribution
+* Scene Builder Version: 2.0
++ IDE: NetBeans 8
 
 
 ## Project Structure
 
-This project was developed using Java FX in conjunction with Scene Builder 2.0, and NetBeans 8 served as the Integrated Development Environment (IDE). The application is structured to manage employee-related information within departments and designations.
+- This project was developed using Java FX in conjunction with Scene Builder 2.0, and NetBeans 8 served as the Integrated Development Environment (IDE). The application is structured to manage employee-related information within departments and designations.
 
 
 ## Database Configuration
 
-Username: root
-Password: 1234
+- Username: root
+* Password: 1234
 
 
-## Tables
+## Tables $ Queries
 
 ### Admin Table
 
-
-CREATE TABLE admin (
+- **Creating the admin Table**
+  
+`CREATE TABLE admin (
     admin_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
     password VARCHAR(50) NOT NULL,
     role ENUM('Admin', 'User') NOT NULL DEFAULT 'User'
-);
+);`
 
-INSERT INTO admin (username, password, role) VALUES
-('admin', '1234', 'Admin');
+- **Inserting admin User**
+
+`INSERT INTO admin (username, password, role) VALUES
+('admin', '1234', 'Admin');`
+
+
+
 
 
 ### Department Table
 
+- **Creating the Department Table**
 
-CREATE TABLE Department (
+`CREATE TABLE Department (
     DepartmentID INT PRIMARY KEY AUTO_INCREMENT,
     DepartmentName VARCHAR(50) NOT NULL
-);
+);`
 
-INSERT INTO Department (DepartmentName) VALUES
+- **Inserting Example Data**
+
+`INSERT INTO Department (DepartmentName) VALUES
 ('Human Resources'),
 ('Marketing'),
 ('Finance'),
 ('Information Technology'),
-('Operations');
+('Operations');`
+
+
+
 
 
 ### Designation Table
 
-CREATE TABLE Designation (
+- **Creating the Designation Table**
+
+`CREATE TABLE Designation (
     DesignationID INT PRIMARY KEY AUTO_INCREMENT,
     DesignationName VARCHAR(50) NOT NULL
-);
+);`
 
-INSERT INTO Designation (DesignationName) VALUES
+- **Inserting Example Data**
+
+`INSERT INTO Designation (DesignationName) VALUES
 ('Manager'),
 ('Assistant Manager'),
 ('Senior Analyst'),
 ('Developer'),
-('Coordinator');
+('Coordinator');`
+
+
+
+
 
 
 ### Employee Table
 
-CREATE TABLE Employee (
+- **Creating the Employee Table**
+
+`CREATE TABLE Employee (
     ID INT PRIMARY KEY AUTO_INCREMENT,
     EmployeeID INT UNIQUE,
     Name VARCHAR(100) NOT NULL,
@@ -87,7 +109,9 @@ CREATE TABLE Employee (
     EPFNumber VARCHAR(100),
     FOREIGN KEY (DepartmentID) REFERENCES Department(DepartmentID),
     FOREIGN KEY (DesignationID) REFERENCES Designation(DesignationID)
-);
+);`
+
+
 
 
 ## Screenshots
@@ -114,9 +138,9 @@ CREATE TABLE Employee (
 
 
 ## **NOTE**
-This system does not include password hashing. It's a basic Employee Management System that allows for managing employees' information within departments and designations.
+- This system does not include password hashing. It's a basic Employee Management System that allows for managing employees' information within departments and designations.
 
-Feel free to use and modify this system based on your requirements.
+* Feel free to use and modify this system based on your requirements.
 
 
 
