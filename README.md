@@ -1,23 +1,30 @@
 
 
 # Employee Management System
-- This Employee Management System is a simple Java application built using MySQL as the database to manage employee-related information within departments and designations.
-
-## Pre-requisites
-
-- Database: MySQL 
-* Java Version: 1.8.0_202
-
-## Development Environment
-
-- Java FX Version: Included in the Java 1.8 distribution
-* Scene Builder Version: 2.0
-+ IDE: NetBeans 8
+- This project was developed for educational purposes to demonstrate JavaFX, MySQL integration, and basic CRUD (Create, Read, Update, Delete) functionalities in an Employee Management System.
 
 
-## Project Structure
+## Technology Stack
+- **Programming Language:** Java
+- **GUI Framework:** JavaFX
+- **Database:** MySQL
+- **IDE:** NetBeans 8.0
+- **Other Tools:** Scene Builder 2.0
 
-- This project was developed using Java FX in conjunction with Scene Builder 2.0, and NetBeans 8 served as the Integrated Development Environment (IDE). The application is structured to manage employee-related information within departments and designations.
+
+## Features
+- **User Authentication:** Secure login for administrators with different roles (Admin/User).
+- **Employee Management:** Add, update, and delete employee details including name, gender, department, designation, salary, contact information, and more.
+- **Department and Designation Management:** Maintain a database of departments and designations to assign to employees.
+- **Database Integration:** Utilizes MySQL for database management, allowing efficient storage and retrieval of employee-related information.
+- **JavaFX Interface:** Developed using JavaFX and Scene Builder for a responsive and intuitive user interface.
+
+
+## Installation and Setup
+1. Clone the repository to your local machine.
+2. Open the project in NetBeans IDE.
+3. Configure the MySQL database settings in the application for proper functionality.
+4. Run the application to start managing employee records efficiently.
 
 
 ## Database Configuration
@@ -140,7 +147,7 @@
 ## **NOTE**
 - This system does not include password hashing. It's a basic Employee Management System that allows for managing employees' information within departments and designations.
 
-* Feel free to use and modify this system based on your requirements.
+* This project was developed for educational purposes to demonstrate JavaFX, MySQL integration, and basic CRUD (Create, Read, Update, Delete) functionalities in an Employee Management System.
 
 
 
